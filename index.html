@@ -3,260 +3,466 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sai Harshit Balantrapu | Computational Materials Science</title>
-  <meta name="description" content="Portfolio of Sai Harshit Balantrapu — Computational Materials Science Researcher (ML potentials, molecular simulation, materials informatics)." />
 
-  <!-- Social preview (replace once you have a banner image) -->
+  <title>Sai Harshit Balantrapu | Computational Materials Science</title>
+  <meta
+    name="description"
+    content="Portfolio of Sai Harshit Balantrapu, a computational materials science researcher working on molecular simulation, machine learning, polymers, biomedical materials, and amorphous networks."
+  />
+
   <meta property="og:title" content="Sai Harshit Balantrapu | Computational Materials Science" />
-  <meta property="og:description" content="ML + simulation pipelines for materials discovery and structure–property modeling." />
+  <meta
+    property="og:description"
+    content="Molecular simulation and AI for polymers, biomedical materials, and amorphous networks."
+  />
   <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="assets/styles.css" />
-  <link rel="icon" href="data:," />
+  <script src="assets/script.js" defer></script>
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="topbar">
-    <div class="container topbar__inner">
-      <div class="brand">
-        <div class="brand__title">Sai Harshit Balantrapu</div>
-        <div class="brand__tag">Computational Materials Science Researcher</div>
-      </div>
+  <header class="site-header">
+    <div class="header-container">
+      <a class="header-name" href="#home" aria-label="Go to the homepage">
+        <span class="header-monogram">SHB</span>
+        <span>
+          <strong>Sai Harshit Balantrapu</strong>
+          <small>Computational Materials Science</small>
+        </span>
+      </a>
 
-      <nav class="nav" aria-label="Primary">
-        <a href="#about">About</a>
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-navigation" class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
         <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact" class="btn btn--primary">Contact</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cv" href="Harshit_s_Resume.pdf" target="_blank" rel="noreferrer">CV ↗</a>
       </nav>
     </div>
   </header>
 
-  <main id="main" class="container">
-    <!-- HERO -->
-    <section class="hero" aria-label="Intro">
-      <div class="hero__left">
-        <p class="kicker">PhD • Computational Materials • AI/ML • Molecular Simulation</p>
+  <div class="page-shell">
+    <aside class="profile-sidebar" aria-label="Profile">
+      <div class="profile-card">
+        <div class="profile-image-wrap">
+          <img
+            class="profile-image"
+            src="assets/profile-placeholder.svg"
+            alt="Sai Harshit Balantrapu profile placeholder"
+          />
+        </div>
+
+        <h2>Sai Harshit<br />Balantrapu</h2>
+        <p class="profile-role">PhD Researcher in Computational Materials Science</p>
+
+        <p class="profile-summary">
+          I use molecular simulation and machine learning to connect atomic-scale
+          structure with the performance of polymers, biomedical materials, and
+          amorphous networks.
+        </p>
+
+        <div class="profile-details">
+          <div class="profile-detail">
+            <span class="detail-icon" aria-hidden="true">◎</span>
+            <span>University at Buffalo</span>
+          </div>
+          <div class="profile-detail">
+            <span class="detail-icon" aria-hidden="true">⌖</span>
+            <span>Buffalo, New York</span>
+          </div>
+        </div>
+
+        <div class="profile-links">
+          <!-- Add your actual email address in the mailto link below. -->
+          <a href="mailto:YOUR_EMAIL_ADDRESS" aria-label="Email Sai Harshit Balantrapu">
+            <span>Email</span><span aria-hidden="true">↗</span>
+          </a>
+          <a href="https://github.com/hbalantr" target="_blank" rel="noreferrer">
+            <span>GitHub</span><span aria-hidden="true">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/b-sai-harshit-206/" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span><span aria-hidden="true">↗</span>
+          </a>
+          <a
+            href="https://scholar.google.com/citations?hl=en&user=OME-dH8AAAAJ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Google Scholar</span><span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <a class="sidebar-cv" href="Harshit_s_Resume.pdf" target="_blank" rel="noreferrer">
+          View curriculum vitae
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </aside>
+
+    <main id="main-content" class="main-content">
+      <section id="home" class="hero section-anchor">
+        <p class="eyebrow">Atoms · Networks · Applications</p>
 
         <h1>
-          I build physics-grounded simulation + ML workflows
-          for structure–property understanding and materials design.
+          Designing materials with
+          <span>simulation, physics, and AI.</span>
         </h1>
 
-        <p class="lead">
-          My work spans ML interatomic potentials (e.g., MACE), molecular simulation (LAMMPS/GROMACS/OpenMM),
-          and materials informatics pipelines (screening, active learning, Bayesian optimization) — with
-          careful benchmarking against experiments and literature.
+        <p class="hero-lead">
+          I am a computational materials science researcher working at the
+          intersection of molecular dynamics, machine-learning interatomic
+          potentials, and materials informatics. My research focuses on
+          understanding how molecular and network structure controls
+          experimentally meaningful properties.
         </p>
 
-        <div class="cta">
-          <a class="btn btn--primary" href="#projects">View Projects</a>
-          <a class="btn" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a class="btn" href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <p class="hero-lead">
+          I am especially interested in polymer networks for dental and
+          biomedical applications, data-driven discovery of chemically realistic
+          materials, and short- to medium-range order in amorphous systems.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my research</a>
+          <a class="button button-secondary" href="#publications">Publications</a>
         </div>
 
-        <div class="chips" role="list" aria-label="Skills">
-          <span class="chip" role="listitem">MACE / ML-IAP</span>
-          <span class="chip" role="listitem">LAMMPS / ASE</span>
-          <span class="chip" role="listitem">GROMACS / OpenMM</span>
-          <span class="chip" role="listitem">RDKit / HTPolyNet</span>
-          <span class="chip" role="listitem">Active Learning / BO</span>
-          <span class="chip" role="listitem">HPC</span>
+        <div class="research-tags" aria-label="Research interests">
+          <span>Polymer networks</span>
+          <span>Dental biomaterials</span>
+          <span>Antimicrobial polymers</span>
+          <span>Amorphous silica</span>
+          <span>ML interatomic potentials</span>
+          <span>Active learning</span>
         </div>
-      </div>
+      </section>
 
-      <div class="hero__right">
-        <div class="profile">
-          <!-- Optional: add assets/profile.jpg -->
-          <div class="profile__image" aria-hidden="true">
-            <img src="assets/profile.jpg" alt="" onerror="this.style.display='none'; this.parentElement.classList.add('profile__image--empty');" />
-          </div>
-          <div class="profile__card">
-            <div class="profile__cardTitle">Current Focus</div>
-            <ul class="profile__list">
-              <li>Amorphous silica: structure validation (RDF, S(Q), rings)</li>
-              <li>Dental resin polymers: cure + property screening</li>
-              <li>Simulation automation & reproducible HPC pipelines</li>
+      <section id="research" class="content-section section-anchor">
+        <div class="section-heading">
+          <p class="section-label">Research interests</p>
+          <h2>Connecting molecular structure to real-world material performance</h2>
+          <p>
+            My work combines physical modeling with modern machine learning.
+            The objective is not only to predict properties, but also to explain
+            them, identify realistic design opportunities, and support
+            experimental decision-making.
+          </p>
+        </div>
+
+        <div class="interest-grid">
+          <article class="interest-card interest-card-blue">
+            <div class="interest-number">01</div>
+            <h3>Polymer networks and dental resins</h3>
+            <p>
+              Virtual curing, thermomechanical property prediction, and
+              multi-objective molecular design for safer and higher-performing
+              crosslinked polymer systems.
+            </p>
+            <ul>
+              <li>Degree of conversion and network formation</li>
+              <li>Elastic modulus, shrinkage, free volume, and glass transition</li>
+              <li>BPA-free and reaction-aware molecular design</li>
             </ul>
-          </div>
+          </article>
+
+          <article class="interest-card interest-card-cyan">
+            <div class="interest-number">02</div>
+            <h3>Biomedical and antimicrobial materials</h3>
+            <p>
+              Data-driven strategies for designing polymers with clinically
+              relevant functionality and for prioritizing focused experimental
+              validation.
+            </p>
+            <ul>
+              <li>Intrinsic antibacterial polymer chemistry</li>
+              <li>Transfer learning across sparse experimental datasets</li>
+              <li>Applications in dental and infection-resistant materials</li>
+            </ul>
+          </article>
+
+          <article class="interest-card interest-card-indigo">
+            <div class="interest-number">03</div>
+            <h3>Amorphous networks and ML potentials</h3>
+            <p>
+              Large-scale molecular dynamics and diffraction-informed analysis
+              of disordered materials, with emphasis on the limits of modern
+              machine-learning interatomic potentials.
+            </p>
+            <ul>
+              <li>Short- and medium-range network order</li>
+              <li>Neutron and high-energy X-ray diffraction comparison</li>
+              <li>Liquid-to-glass structure and sampling</li>
+            </ul>
+          </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="section__header">
-        <h2>About</h2>
-        <p>
-          I’m a computational materials researcher focused on bridging atomistic simulations with modern ML
-          to build reliable, interpretable models for disordered materials and polymer networks.
-        </p>
-      </div>
-
-      <div class="grid grid--2">
-        <article class="card">
-          <h3>What I do</h3>
-          <p>
-            Train and validate ML interatomic potentials, run large-scale MD workflows, extract
-            structural/thermomechanical properties, and build screening pipelines for design.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>How I work</h3>
-          <p>
-            Benchmark-first. I compare against literature/experiments, quantify uncertainty, and prioritize
-            reproducibility (clean repos, clear configs, automated analyses).
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-      <div class="section__header">
-        <h2>Projects</h2>
-        <p>Selected work across ML potentials, polymer design, and MD analysis. (Replace links/titles as needed.)</p>
-      </div>
-
-      <div class="grid grid--3">
-        <article class="card card--project">
-          <div class="card__top">
-            <h3>MACE for Amorphous Silica</h3>
-            <span class="badge">ML Potentials</span>
-          </div>
-          <p>
-            Train and validate equivariant ML-IAPs; evaluate RDFs, partial PDFs, structure factors,
-            angle distributions, and ring statistics across melt–quench protocols.
-          </p>
-          <div class="card__actions">
-            <a class="btn btn--small" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Summary ↗</a>
-          </div>
-        </article>
-
-        <article class="card card--project">
-          <div class="card__top">
-            <h3>Dental Resin Screening Pipeline</h3>
-            <span class="badge">Polymers</span>
-          </div>
-          <p>
-            RDKit enumeration → HTPolyNet curing simulations → property extraction (DC, shrinkage, Tg, modulus)
-            → multi-objective ranking with active learning / BO.
-          </p>
-          <div class="card__actions">
-            <a class="btn btn--small" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Results ↗</a>
-          </div>
-        </article>
-
-        <article class="card card--project">
-          <div class="card__top">
-            <h3>Electrode / Ionic-Liquid MD</h3>
-            <span class="badge">MD + Analysis</span>
-          </div>
-          <p>
-            Constant-potential workflows, image-charge methods, and transport-property analysis
-            (conductivity/viscosity) with robust statistics and reproducible scripts.
-          </p>
-          <div class="card__actions">
-            <a class="btn btn--small" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">Code ↗</a>
-            <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Notes ↗</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- PUBLICATIONS -->
-    <section id="publications" class="section">
-      <div class="section__header">
-        <h2>Publications</h2>
-        <p>Add papers, preprints, posters, and talks. (You can keep this even if you’re early-stage—use “In preparation”.)</p>
-      </div>
-
-      <div class="list">
-        <article class="list__item">
-          <div class="list__title">Paper / Preprint Title (Replace)</div>
-          <div class="list__meta">Authors • Venue • Year</div>
-          <div class="list__links">
-            <a class="link" href="#" target="_blank" rel="noreferrer">PDF</a>
-            <span class="dot">•</span>
-            <a class="link" href="#" target="_blank" rel="noreferrer">Code</a>
-            <span class="dot">•</span>
-            <a class="link" href="#" target="_blank" rel="noreferrer">DOI</a>
-          </div>
-        </article>
-
-        <article class="list__item">
-          <div class="list__title">Project Manuscript (In preparation)</div>
-          <div class="list__meta">Computational Materials Science • 2026</div>
-          <div class="list__links">
-            <a class="link" href="#" target="_blank" rel="noreferrer">Abstract</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- RESUME -->
-    <section id="resume" class="section">
-      <div class="section__header">
-        <h2>Resume</h2>
-        <p>Keep a PDF here so recruiters can access it in one click.</p>
-      </div>
-
-      <div class="card card--wide">
-        <div class="resumeBox">
+      <section id="projects" class="content-section section-anchor">
+        <div class="section-heading split-heading">
           <div>
-            <div class="resumeBox__title">Sai Harshit Balantrapu — Resume</div>
-            <div class="resumeBox__meta">Updated: <span id="lastUpdated"></span></div>
+            <p class="section-label">Highlighted research</p>
+            <h2>Selected projects</h2>
           </div>
-          <div class="resumeBox__actions">
-            <a class="btn btn--primary" href="resume/SaiHarshitBalantrapu_Resume.pdf" target="_blank" rel="noreferrer">Open PDF ↗</a>
-            <a class="btn" href="resume/SaiHarshitBalantrapu_Resume.pdf" download>Download</a>
+          <p>
+            These projects illustrate my broader approach: use computation to
+            discover structure-property relationships, test them against
+            physical evidence, and translate the results into useful materials
+            design decisions.
+          </p>
+        </div>
+
+        <div class="project-stack">
+          <article class="project-card">
+            <div class="project-visual">
+              <img src="assets/polymer-network.svg" alt="Stylized crosslinked polymer network" />
+            </div>
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>Active learning</span>
+                <span>Molecular dynamics</span>
+                <span>Dental materials</span>
+              </div>
+              <h3>AI-guided discovery of BPA-free dental resin backbones</h3>
+              <p>
+                A multi-objective active-learning workflow for navigating
+                chemically filtered molecular libraries and prioritizing
+                candidates for expensive virtual-curing simulations. The
+                optimization balances elastic modulus, volumetric shrinkage,
+                fractional free volume, and network conversion.
+              </p>
+              <p class="project-impact">
+                <strong>Application:</strong> safer, lower-shrinkage, and
+                mechanically reliable dental restorative materials.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual">
+              <img src="assets/silica-network.svg" alt="Stylized amorphous silica network" />
+            </div>
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>ML potentials</span>
+                <span>Diffraction</span>
+                <span>Amorphous materials</span>
+              </div>
+              <h3>Testing local and long-range ML potentials for silica glass</h3>
+              <p>
+                Large-scale molecular dynamics is compared directly with
+                neutron and high-energy X-ray diffraction to assess whether
+                short-range and long-range machine-learning models reproduce
+                liquid and glass structure beyond the local tetrahedral
+                environment.
+              </p>
+              <p class="project-impact">
+                <strong>Application:</strong> reliable predictive models for
+                network glasses used in optics, electronics, and advanced
+                manufacturing.
+              </p>
+              <a
+                class="inline-link"
+                href="https://arxiv.org/abs/2604.21222"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Read the preprint <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual">
+              <img src="assets/biomedical-polymer.svg" alt="Stylized biomedical polymer and bacteria interface" />
+            </div>
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>Transfer learning</span>
+                <span>Reaction-aware design</span>
+                <span>Biomaterials</span>
+              </div>
+              <h3>Data-driven design of antimicrobial PVA-based polymers</h3>
+              <p>
+                A developing workflow that combines curated experimental data,
+                transfer learning, and reaction-constrained molecular
+                exploration to prioritize grafted polymer chemistries for
+                experimental testing against clinically relevant bacteria.
+              </p>
+              <p class="project-impact">
+                <strong>Application:</strong> intrinsically antimicrobial
+                surfaces and polymeric biomaterials for infection control.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="content-section section-anchor">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="section-label">Publications</p>
+            <h2>Research output</h2>
+          </div>
+          <a
+            class="button button-secondary"
+            href="https://scholar.google.com/citations?hl=en&user=OME-dH8AAAAJ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Full Google Scholar profile ↗
+          </a>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication-item">
+            <div class="publication-year">2026</div>
+            <div>
+              <p class="publication-category">Preprint · Amorphous materials · Machine learning</p>
+              <h3>
+                Neutron and X-ray Diffraction Reveal the Limits of Long-Range
+                Machine Learning Potentials for Medium-Range Order in Silica Glass
+              </h3>
+              <p class="publication-authors">
+                <strong>Sai Harshit Balantrapu</strong>, Atul C. Thakur,
+                Chris Benmore, and Ganesh Sivaraman
+              </p>
+              <p class="publication-description">
+                Experimental diffraction and large-scale ML-driven molecular
+                dynamics are combined to evaluate whether local and long-range
+                potentials recover physically realistic medium-range order
+                during silica vitrification.
+              </p>
+              <div class="publication-actions">
+                <a href="https://arxiv.org/abs/2604.21222" target="_blank" rel="noreferrer">arXiv ↗</a>
+                <a href="https://doi.org/10.48550/arXiv.2604.21222" target="_blank" rel="noreferrer">DOI ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="publication-note">
+            Additional publications, accepted manuscripts, conference talks,
+            and posters can be added here as the next content update.
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section section--last">
-      <div class="section__header">
-        <h2>Contact</h2>
-        <p>Replace the email + LinkedIn below and you’re done.</p>
-      </div>
+      <section id="journey" class="content-section section-anchor">
+        <div class="section-heading">
+          <p class="section-label">Journey</p>
+          <h2>Research milestones</h2>
+          <p>
+            A concise timeline makes the website feel personal while showing
+            progression from foundational simulation work to independent,
+            application-driven computational materials research.
+          </p>
+        </div>
 
-      <div class="grid grid--2">
-        <article class="card">
-          <h3>Email</h3>
-          <p><a class="link" href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></p>
-          <p class="muted small">Tip: use your .edu or a professional Gmail.</p>
-        </article>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">2026</div>
+            <div class="timeline-content">
+              <h3>Silica glass preprint and MLCM-26 Rising Star Talk</h3>
+              <p>
+                Combined neutron and X-ray diffraction with large-scale
+                machine-learning molecular dynamics to study medium-range order
+                in amorphous silica.
+              </p>
+            </div>
+          </article>
 
-        <article class="card">
-          <h3>Links</h3>
-          <p><a class="link" href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
-          <p><a class="link" href="https://github.com/sbalantr" target="_blank" rel="noreferrer">GitHub ↗</a></p>
-        </article>
-      </div>
-    </section>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">2025–2026</div>
+            <div class="timeline-content">
+              <h3>Multi-objective discovery of BPA-free dental resin backbones</h3>
+              <p>
+                Developed an active-learning pipeline coupling molecular
+                descriptors, Bayesian optimization, and virtual curing
+                simulations.
+              </p>
+            </div>
+          </article>
 
-    <footer class="footer">
-      <div class="footer__left">
-        © <span id="year"></span> Sai Harshit Balantrapu
-      </div>
-      <div class="footer__right">
-        Built on GitHub Pages • <a class="link" href="#main">Back to top</a>
-      </div>
-    </footer>
-  </main>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">2024–2025</div>
+            <div class="timeline-content">
+              <h3>Advanced atomistic simulation and scientific machine learning</h3>
+              <p>
+                Expanded research across polymer networks, ML interatomic
+                potentials, molecular dynamics, and reproducible HPC workflows.
+              </p>
+            </div>
+          </article>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-    // A simple "Updated" field for resume section:
-    document.getElementById("lastUpdated").textContent = new Date().toLocaleDateString(undefined, { year:'numeric', month:'short' });
-  </script>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">PhD</div>
+            <div class="timeline-content">
+              <h3>Materials Design and Innovation, University at Buffalo</h3>
+              <p>
+                Research at the intersection of computational materials science,
+                molecular simulation, and data-driven materials discovery.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section contact-section section-anchor">
+        <div class="contact-panel">
+          <div>
+            <p class="section-label">Contact</p>
+            <h2>Let’s connect.</h2>
+            <p>
+              I am interested in research collaborations and opportunities in
+              computational materials science, polymer and biomedical
+              materials, atomistic simulation, scientific machine learning,
+              and high-performance computing.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <!-- Add your actual email address in the mailto link below. -->
+            <a class="button button-primary" href="mailto:YOUR_EMAIL_ADDRESS">Send an email</a>
+            <a
+              class="button button-secondary"
+              href="https://www.linkedin.com/in/b-sai-harshit-206/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+            <a class="button button-secondary" href="Harshit_s_Resume.pdf" target="_blank" rel="noreferrer">
+              View CV ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>© <span id="current-year"></span> Sai Harshit Balantrapu</p>
+        <p>Computational Materials Science · University at Buffalo</p>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
