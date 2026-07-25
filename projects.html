@@ -1,0 +1,138 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Selected projects in dental polymer discovery, virtual curing, and amorphous silica modeling.">
+      <title>Projects | Sai Harshit Balantrapu</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,600;7..72,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/styles.css">
+      <script src="assets/script.js" defer></script>
+    </head>
+    <body>
+      <a class="skip-link" href="#main-content">Skip to content</a>
+      <header class="site-header">
+      <div class="nav-wrap">
+        <a class="site-identity" href="index.html" aria-label="Sai Harshit Balantrapu home">
+          <span class="site-mark">SHB</span>
+          <span class="site-identity-copy">
+            <strong>Sai Harshit Balantrapu</strong>
+            <small>Computational Materials Science</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Open navigation</span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a class="active" aria-current="page" href="projects.html">Projects</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+      <main id="main-content">
+
+<section class="page-hero">
+  <p class="eyebrow">Projects</p>
+  <h1 class="page-title">Selected computational materials research.</h1>
+  <p class="subtitle">
+    Current projects span dental polymer discovery, crosslinked-network simulation,
+    and experiment-grounded modeling of amorphous silica.
+  </p>
+</section>
+
+<section class="project-detail" id="dental-discovery">
+  <div class="project-detail-image">
+    <img src="assets/discovery-loop.svg" alt="Active-learning materials discovery workflow">
+  </div>
+  <div class="project-detail-copy">
+    <p class="eyebrow">Project 01 · In progress</p>
+    <h2>AI-guided discovery of BPA-free dental resin backbones</h2>
+    <p>
+      This project uses multi-objective active learning to prioritize BPA-free
+      backbones from a chemically filtered molecular library. Candidate
+      evaluation combines virtual curing with cured-network property calculations.
+    </p>
+    <div class="project-facts">
+      <div><span>Objectives</span><strong>High modulus · Low shrinkage · Low FFV</strong></div>
+      <div><span>Oracle</span><strong>HTPolyNet and GROMACS virtual curing</strong></div>
+      <div><span>Learning</span><strong>GPR surrogates and random scalarization</strong></div>
+    </div>
+    <p class="impact-box">
+      <strong>Research goal:</strong> identify chemically realistic tradeoffs rather
+      than a single mathematically optimal molecule.
+    </p>
+  </div>
+</section>
+
+<section class="project-detail reverse" id="silica-glass">
+  <div class="project-detail-image">
+    <img
+      src="assets/silica-network.png"
+      onerror="this.onerror=null;this.src='assets/silica-placeholder.svg';"
+      alt="Silica network structure"
+    >
+  </div>
+  <div class="project-detail-copy">
+    <p class="eyebrow">Project 02 · Published</p>
+    <h2>Long-range ML potentials and medium-range order in silica glass</h2>
+    <p>
+      This work compares short-range and long-range machine-learning potentials
+      against neutron and high-energy X-ray diffraction. The analysis extends
+      beyond local bond lengths and angles to network topology and medium-range order.
+    </p>
+    <div class="project-facts">
+      <div><span>Simulation</span><strong>Large-scale melt, quench, and glass MD</strong></div>
+      <div><span>Structure</span><strong>RDFs · S(Q) · angles · rings · topology</strong></div>
+      <div><span>Validation</span><strong>Neutron and X-ray diffraction</strong></div>
+    </div>
+    <div class="hero-actions">
+      <a class="button primary" href="https://doi.org/10.1088/2515-7639/ae8643" target="_blank" rel="noopener">Published article ↗</a>
+      <a class="button ghost" href="publications.html">Publication details</a>
+    </div>
+  </div>
+</section>
+
+<section class="project-detail" id="polymer-simulation">
+  <div class="project-detail-image">
+    <img src="assets/polymer-network.svg" alt="Crosslinked thermoset polymer network">
+  </div>
+  <div class="project-detail-copy">
+    <p class="eyebrow">Project 03 · Molecular simulation</p>
+    <h2>Structure–property modeling of crosslinked polymer networks</h2>
+    <p>
+      This project develops reproducible virtual-curing and post-simulation
+      workflows for extracting cured-network properties across independent replicas.
+      It provides the simulation foundation for the dental-resin discovery workflow.
+    </p>
+    <div class="project-facts">
+      <div><span>Network</span><strong>Reaction-driven thermoset construction</strong></div>
+      <div><span>Properties</span><strong>Elastic response · Tg · FFV · shrinkage</strong></div>
+      <div><span>Workflow</span><strong>Automated replicas and HPC execution</strong></div>
+    </div>
+    <p class="impact-box">
+      <strong>Research goal:</strong> connect molecular architecture and cure
+      evolution to reproducible, experimentally relevant polymer properties.
+    </p>
+  </div>
+</section>
+
+      </main>
+      <footer class="site-footer">
+  <div class="footer-wrap">
+    <p>© <span data-current-year></span> Sai Harshit Balantrapu</p>
+    <p>PhD Student · Materials Design and Innovation · University at Buffalo</p>
+  </div>
+</footer>
+    </body>
+    </html>

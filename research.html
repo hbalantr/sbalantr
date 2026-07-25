@@ -1,0 +1,160 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Research in polymer networks, materials informatics, amorphous systems, and machine-learning potentials.">
+      <title>Research | Sai Harshit Balantrapu</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,600;7..72,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/styles.css">
+      <script src="assets/script.js" defer></script>
+    </head>
+    <body>
+      <a class="skip-link" href="#main-content">Skip to content</a>
+      <header class="site-header">
+      <div class="nav-wrap">
+        <a class="site-identity" href="index.html" aria-label="Sai Harshit Balantrapu home">
+          <span class="site-mark">SHB</span>
+          <span class="site-identity-copy">
+            <strong>Sai Harshit Balantrapu</strong>
+            <small>Computational Materials Science</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Open navigation</span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+<li><a class="active" aria-current="page" href="research.html">Research</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+      <main id="main-content">
+
+<section class="page-hero">
+  <p class="eyebrow">Research</p>
+  <h1 class="page-title">Connecting atoms, networks, and data to material performance.</h1>
+  <p class="subtitle">
+    My research program combines atomistic modeling, machine learning, and
+    materials informatics across polymer networks and amorphous systems.
+  </p>
+</section>
+
+<section class="section-block" id="polymer-networks">
+  <div class="research-detail">
+    <div>
+      <p class="eyebrow">Research thrust 01</p>
+      <h2>Polymer networks and dental biomaterials</h2>
+      <p>
+        Crosslinked dental resins must balance conversion, mechanical stiffness,
+        dimensional stability, free volume, and processing behavior. I use
+        molecular simulation to connect monomer structure and curing history to
+        the properties of the resulting network.
+      </p>
+      <div class="method-list">
+        <span>Virtual curing</span><span>Degree of conversion</span>
+        <span>Elastic modulus</span><span>Volumetric shrinkage</span>
+        <span>Fractional free volume</span><span>Glass transition</span>
+      </div>
+    </div>
+    <figure class="research-figure">
+      <img src="assets/polymer-network.svg" alt="Crosslinked polymer network">
+      <figcaption>Molecular design → network formation → cured-material properties.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section-block" id="materials-informatics">
+  <div class="research-detail reverse">
+    <div>
+      <p class="eyebrow">Research thrust 02</p>
+      <h2>Materials informatics and AI-guided discovery</h2>
+      <p>
+        Large molecular design spaces cannot be explored exhaustively with
+        expensive simulations. I develop data-efficient workflows that combine
+        molecular descriptors, surrogate models, uncertainty, active learning,
+        and multi-objective Bayesian optimization.
+      </p>
+      <p>
+        A central requirement is chemical realism: generated or screened
+        candidates should satisfy structural filters and remain connected to
+        explicit reaction strategies.
+      </p>
+      <div class="method-list">
+        <span>Gaussian-process surrogates</span><span>Active learning</span>
+        <span>Multi-objective optimization</span><span>Pareto analysis</span>
+        <span>Molecular descriptors</span><span>Reaction-aware design</span>
+      </div>
+    </div>
+    <figure class="research-figure">
+      <img src="assets/discovery-loop.svg" alt="Active-learning materials discovery loop">
+      <figcaption>Candidate library → surrogate uncertainty → simulation → model update.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section-block" id="amorphous-systems">
+  <div class="research-detail">
+    <div>
+      <p class="eyebrow">Research thrust 03</p>
+      <h2>Amorphous systems and machine-learning potentials</h2>
+      <p>
+        Amorphous materials are challenging because their properties depend on
+        collective organization beyond the nearest-neighbor environment. I use
+        large-scale machine-learning molecular dynamics and diffraction-based
+        validation to study liquid-to-glass evolution and medium-range order.
+      </p>
+      <div class="method-list">
+        <span>Neutron diffraction</span><span>High-energy X-ray diffraction</span>
+        <span>Pair distribution functions</span><span>Structure factors</span>
+        <span>Ring statistics</span><span>Persistent homology</span>
+      </div>
+    </div>
+    <figure class="research-figure">
+      <img
+        src="assets/silica-network.png"
+        onerror="this.onerror=null;this.src='assets/silica-placeholder.svg';"
+        alt="Amorphous silica network"
+      >
+      <figcaption>Local tetrahedra and collective medium-range network organization.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="story-panel">
+  <div class="story-copy">
+    <p class="eyebrow">Shared workflow</p>
+    <h2>How the research directions connect</h2>
+    <p>
+      Across polymers and glasses, the same logic applies: build realistic
+      structures, quantify uncertainty, evaluate physically meaningful
+      descriptors, and connect computation to experiment or application.
+    </p>
+  </div>
+  <div class="flow-row">
+    <article class="flow-step"><span>1</span><strong>Represent</strong><p>Encode chemistry, structure, and processing conditions.</p></article>
+    <article class="flow-step"><span>2</span><strong>Simulate</strong><p>Generate atomistic or molecular evidence at relevant conditions.</p></article>
+    <article class="flow-step"><span>3</span><strong>Validate</strong><p>Compare with experiment, literature, uncertainty, and physical constraints.</p></article>
+  </div>
+</section>
+
+      </main>
+      <footer class="site-footer">
+  <div class="footer-wrap">
+    <p>© <span data-current-year></span> Sai Harshit Balantrapu</p>
+    <p>PhD Student · Materials Design and Innovation · University at Buffalo</p>
+  </div>
+</footer>
+    </body>
+    </html>
