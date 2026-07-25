@@ -1428,4 +1428,121 @@ h2,
   .entry-copy h1 {
     font-size: clamp(40px, 13vw, 59px);
   }
+} 
+
+/* Timeline institution */
+
+.timeline-institution {
+  margin: 3px 0 9px !important;
+  color: var(--primary-dark) !important;
+  font-size: 13px !important;
+  font-weight: 750;
+}
+
+
+/* Thesis and teaching blocks */
+
+.timeline-extra {
+  max-width: 920px;
+  margin-top: 13px;
+  padding: 12px 15px;
+  border-radius: 0 13px 13px 0;
+}
+
+.timeline-extra-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+
+/* Orange thesis block */
+
+.thesis-extra {
+  border-left: 4px solid var(--accent);
+  background:
+    linear-gradient(
+      120deg,
+      rgba(255, 241, 227, 0.9),
+      rgba(255, 255, 255, 0.78)
+    );
+}
+
+.thesis-extra .timeline-extra-label {
+  color: var(--accent-dark);
+}
+
+
+/* Blue teaching block */
+
+.teaching-extra {
+  border-left: 4px solid var(--primary);
+  background:
+    linear-gradient(
+      120deg,
+      rgba(232, 244, 255, 0.9),
+      rgba(255, 255, 255, 0.78)
+    );
+}
+
+.teaching-extra .timeline-extra-label {
+  color: var(--primary-dark);
+}
+
+
+/* Text inside the blocks */
+
+.timeline-extra-title {
+  display: block;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.timeline-extra small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.teaching-extra p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.teaching-extra p + p {
+  margin-top: 9px;
+  padding-top: 9px;
+  border-top: 1px solid var(--border);
+}
+
+.teaching-extra p small {
+  display: inline;
+  margin-left: 5px;
+}
+
+.timeline-extra-description {
+  margin-top: 7px !important;
+  color: var(--muted) !important;
+  font-size: 11px !important;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .timeline-extra {
+    padding: 11px 13px;
+  }
+
+  .teaching-extra p small {
+    display: block;
+    margin: 3px 0 0;
+  }
 }
