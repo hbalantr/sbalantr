@@ -1545,4 +1545,41 @@ h2,
     display: block;
     margin: 3px 0 0;
   }
+} 
+
+.research-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 14px 14px 0;
+  background:
+    linear-gradient(
+      120deg,
+      rgba(255, 241, 227, 0.9),
+      rgba(255, 255, 255, 0.8)
+    );
+}
+
+.research-note span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--accent-dark);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.research-note strong {
+  display: block;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.research-note small {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 11px;
 }
