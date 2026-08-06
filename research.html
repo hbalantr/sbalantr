@@ -1,229 +1,459 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Research in polymer networks, materials informatics, amorphous systems, and machine-learning potentials.">
-      <title>Research | Sai Harshit Balantrapu</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,600;7..72,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="assets/styles.css">
-      <script src="assets/script.js" defer></script>
-    </head>
-    <body>
-      <a class="skip-link" href="#main-content">Skip to content</a>
-      <header class="site-header">
-      <div class="nav-wrap">
-        <a class="site-identity" href="index.html" aria-label="Sai Harshit Balantrapu home">
-          <span class="site-mark">SHB</span>
-          <span class="site-identity-copy">
-            <strong>Sai Harshit Balantrapu</strong>
-            <small>Computational Materials Science</small>
-          </span>
-        </a>
+<!DOCTYPE html>
+<html lang="en">
 
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-          <span></span><span></span><span></span>
-          <span class="sr-only">Open navigation</span>
-        </button>
+<head>
+  <meta charset="UTF-8">
 
-        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-<li><a class="active" aria-current="page" href="research.html">Research</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="publications.html">Publications</a></li>
-<li><a href="resume.html">Resume</a></li>
-<li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-      <main id="main-content">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
 
-<section class="page-hero">
-  <p class="eyebrow">Research</p>
-  <h1 class="page-title">Connecting atoms, networks, and data to material performance.</h1>
-  <p class="subtitle">
-    My research program combines atomistic modeling, machine learning, and
-    materials informatics across polymer networks and amorphous systems.
-  </p>
-</section>
+  <meta
+    name="description"
+    content="Research by Sai Harshit Balantrapu in dental polymer networks, AI-guided materials discovery, amorphous silica, machine-learning interatomic potentials, and ionic-liquid interfaces."
+  >
 
-<section class="section-block" id="polymer-networks">
-  <div class="research-detail">
-    <div>
-      <p class="eyebrow">Research thrust 01</p>
-      <h2>Polymer networks and dental biomaterials</h2>
-      <p>
-        Crosslinked dental resins must balance conversion, mechanical stiffness,
-        dimensional stability, free volume, and processing behavior. I use
-        molecular simulation to connect monomer structure and curing history to
-        the properties of the resulting network.
-      </p>
-      <div class="method-list">
-        <span>Virtual curing</span><span>Degree of conversion</span>
-        <span>Elastic modulus</span><span>Volumetric shrinkage</span>
-        <span>Fractional free volume</span><span>Glass transition</span>
-      </div>
-    </div>
-    <figure class="research-figure">
-      <img src="assets/polymer-network.svg" alt="Crosslinked polymer network">
-      <figcaption>Molecular design → network formation → cured-material properties.</figcaption>
-    </figure>
-  </div>
-</section>
+  <title>Research | Sai Harshit Balantrapu</title>
 
-<section class="section-block" id="materials-informatics">
-  <div class="research-detail reverse">
-    <div>
-      <p class="eyebrow">Research thrust 02</p>
-      <h2> AI-guided discovery of BPA-free backbones for dental resins</h2>
-      <p>
-        Large molecular design spaces cannot be explored exhaustively with
-        expensive simulations. I develop data-efficient workflows that combine
-        molecular descriptors, surrogate models, uncertainty, active learning,
-        and multi-objective Bayesian optimization.
-      </p>
-      <p>
-        A central requirement is chemical realism: generated or screened
-        candidates should satisfy structural filters and remain connected to
-        explicit reaction strategies.
-      </p>
-      <div class="method-list">
-        <span>Gaussian-process surrogates</span><span>Active learning</span>
-        <span>Multi-objective optimization</span><span>Pareto analysis</span>
-        <span>Molecular descriptors</span><span>Reaction-aware design</span>
-      </div>
-    </div>
-    <figure class="research-figure">
-      <img src="assets/AL_Workflow_Final.png" alt="Active-learning materials discovery loop">
-      <figcaption>Candidate library → surrogate uncertainty → simulation → model update.</figcaption>
-    </figure>
-  </div>
-</section>
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
 
-<section class="section-block" id="amorphous-systems">
-  <div class="research-detail">
-    <div>
-      <p class="eyebrow">Research thrust 03</p>
-      <h2>Amorphous systems and machine-learning potentials</h2>
-      <p>
-        Amorphous materials are challenging because their properties depend on
-        collective organization beyond the nearest-neighbor environment. I use
-        large-scale machine-learning molecular dynamics and diffraction-based
-        validation to study liquid-to-glass evolution and medium-range order.
-      </p>
-      <div class="method-list">
-        <span>Neutron diffraction</span><span>High-energy X-ray diffraction</span>
-        <span>Pair distribution functions</span><span>Structure factors</span>
-        <span>Ring statistics</span><span>Persistent homology</span>
-      </div>
-    </div>
-    <figure class="research-figure">
-      <img
-        src="assets/silica-network.png"
-        onerror="this.onerror=null;this.src='assets/silica-placeholder.svg';"
-        alt="Amorphous silica network"
-      >
-      <figcaption>Local tetrahedra and collective medium-range network organization.</figcaption>
-    </figure>
-  </div>
-</section>
-<section class="section-block" id="lanthanide-separation">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
 
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">Previous research</p>
-      <h2>Electrochemical lanthanide separation with ionic liquids</h2>
-    </div>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,600;7..72,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
 
-    <p>
-      Master’s research focused on understanding ion transfer across
-      water–ionic liquid interfaces for rare-earth separation.
-    </p>
-  </div>
+  <link
+    rel="stylesheet"
+    href="assets/styles.css"
+  >
 
-  <div class="research-detail reverse">
+  <script
+    src="assets/script.js"
+    defer
+  ></script>
+</head>
 
-    <div>
-      <p>
-        During my master’s research at the University of Wyoming, I studied
-        phosphonium-based ionic liquids for electrochemical lanthanide
-        separation using atomistic molecular simulations.
-      </p>
 
-      <p>
-        The work examined how ionic-liquid chemistry and interfacial structure
-        influence solvation, ion transfer, and voltage-driven separation
-        behavior at water–ionic liquid interfaces.
-      </p>
+<body class="research-page">
 
-      <div class="method-list">
-        <span>GAFF force-field development</span>
-        <span>Water–ionic liquid interfaces</span>
-        <span>Lanthanide separation</span>
-        <span>H-REMD</span>
-        <span>Solvation free energy</span>
-        <span>Constant-potential MD</span>
-      </div>
+  <a
+    class="skip-link"
+    href="#main-content"
+  >
+    Skip to content
+  </a>
 
-      <div class="research-note">
-        <span>Master’s project</span>
 
-        <strong>
-          Understanding Water–Ionic Liquid Interfaces for Rare-Earth
-          Extraction via Atomistic Simulations
-        </strong>
+  <!-- Navigation -->
 
-        <small>
-          University of Wyoming · Advisor: Dr. Utkarsh Kapoor
-        </small>
-      </div>
-    </div>
+  <header class="site-header">
 
-    <figure class="research-figure">
-      <img
-        src="assets/ionic-liquid-interface.png"
-        alt="Atomistic simulation of a water and ionic-liquid interface"
+    <div class="nav-wrap">
+
+      <a
+        class="site-identity"
+        href="index.html"
+        aria-label="Sai Harshit Balantrapu home"
       >
 
-      <figcaption>
-        Atomistic modeling of ion transfer and interfacial structure at a
-        water–ionic liquid interface.
-      </figcaption>
-    </figure>
+        <span class="site-mark">SHB</span>
 
-  </div>
+        <span class="site-identity-copy">
+          <strong>Sai Harshit Balantrapu</strong>
+          <small>Computational Materials Science</small>
+        </span>
 
-</section>
+      </a>
 
 
-<section class="story-panel">
-  <div class="story-copy">
-    <p class="eyebrow">Shared workflow</p>
-    <h2>How the research directions connect</h2>
-    <p>
-      Across polymers and glasses, the same logic applies: build realistic
-      structures, quantify uncertainty, evaluate physically meaningful
-      descriptors, and connect computation to experiment or application.
-    </p>
-  </div>
-  <div class="flow-row">
-    <article class="flow-step"><span>1</span><strong>Represent</strong><p>Encode chemistry, structure, and processing conditions.</p></article>
-    <article class="flow-step"><span>2</span><strong>Simulate</strong><p>Generate atomistic or molecular evidence at relevant conditions.</p></article>
-    <article class="flow-step"><span>3</span><strong>Validate</strong><p>Compare with experiment, literature, uncertainty, and physical constraints.</p></article>
-  </div>
-</section>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
 
-      </main>
-      <footer class="site-footer">
-  <div class="footer-wrap">
-    <p>© <span data-current-year></span> Sai Harshit Balantrapu</p>
-    <p>PhD Student · Materials Design and Innovation · University at Buffalo</p>
-  </div>
-</footer>
-    </body>
-    </html> 
+        <span></span>
+        <span></span>
+        <span></span>
 
+        <span class="sr-only">
+          Open navigation
+        </span>
+
+      </button>
+
+
+      <nav
+        id="primary-nav"
+        class="primary-nav"
+        aria-label="Primary navigation"
+      >
+
+        <ul>
+
+          <li>
+            <a href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="active"
+              aria-current="page"
+              href="research.html"
+            >
+              Research
+            </a>
+          </li>
+
+          <li>
+            <a href="projects.html">
+              Projects
+            </a>
+          </li>
+
+          <li>
+            <a href="publications.html">
+              Publications
+            </a>
+          </li>
+
+          <li>
+            <a href="resume.html">
+              Resume
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main id="main-content">
+
+
+    <!-- Research introduction -->
+
+    <section class="page-hero">
+
+      <p class="eyebrow">
+        Research
+      </p>
+
+      <h1 class="page-title">
+        Connecting molecular structure, computation, and material performance.
+      </h1>
+
+      <p class="subtitle">
+        My work combines atomistic simulation, machine learning, and materials
+        informatics to study polymer networks, amorphous materials, and
+        chemically realistic materials discovery.
+      </p>
+
+    </section>
+
+
+    <!-- Research 01 -->
+
+    <section
+      class="section-block"
+      id="polymer-networks"
+    >
+
+      <div class="research-detail">
+
+        <div>
+
+          <p class="eyebrow">
+            Current research · 01
+          </p>
+
+          <h2>
+            Crosslinked polymer networks for dental biomaterials
+          </h2>
+
+          <p>
+            I use virtual curing and molecular dynamics to connect monomer
+            chemistry, network formation, and processing history with the
+            thermomechanical properties of dental resin systems.
+          </p>
+
+          <div class="method-list">
+
+            <span>Virtual curing</span>
+            <span>Degree of conversion</span>
+            <span>Elastic modulus</span>
+            <span>Volumetric shrinkage</span>
+            <span>Fractional free volume</span>
+            <span>Glass transition</span>
+
+          </div>
+
+        </div>
+
+
+        <figure class="research-figure">
+
+          <img
+            src="assets/polymer-network.svg"
+            alt="Illustration of a crosslinked polymer network"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <figcaption>
+            Monomer design → network formation → cured-material properties.
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+
+    <!-- Research 02 -->
+
+    <section
+      class="section-block"
+      id="materials-informatics"
+    >
+
+      <div class="research-detail reverse">
+
+        <div>
+
+          <p class="eyebrow">
+            Current research · 02
+          </p>
+
+          <h2>
+            AI-guided discovery of BPA-free backbones for dental resins
+          </h2>
+
+          <p>
+            I develop data-efficient workflows that combine molecular
+            descriptors, Gaussian-process surrogates, active learning, and
+            multi-objective Bayesian optimization to identify chemically
+            realistic candidates for virtual-curing simulations.
+          </p>
+
+          <div class="method-list">
+
+            <span>Gaussian processes</span>
+            <span>Active learning</span>
+            <span>Bayesian optimization</span>
+            <span>Pareto analysis</span>
+            <span>Molecular descriptors</span>
+            <span>Reaction-aware design</span>
+
+          </div>
+
+        </div>
+
+
+        <figure class="research-figure">
+
+          <img
+            src="assets/AL_Workflow_Final.png"
+            alt="Active-learning workflow for BPA-free dental resin discovery"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <figcaption>
+            Candidate library → surrogate model → virtual curing → model update.
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+
+    <!-- Research 03 -->
+
+    <section
+      class="section-block"
+      id="amorphous-systems"
+    >
+
+      <div class="research-detail">
+
+        <div>
+
+          <p class="eyebrow">
+            Current research · 03
+          </p>
+
+          <h2>
+            Amorphous silica and machine-learning interatomic potentials
+          </h2>
+
+          <p>
+            I use large-scale machine-learning molecular dynamics and
+            diffraction-based validation to study liquid-to-glass evolution,
+            network topology, and short- to medium-range order in silica.
+          </p>
+
+          <div class="method-list">
+
+            <span>Neutron diffraction</span>
+            <span>High-energy X-ray diffraction</span>
+            <span>Pair distribution functions</span>
+            <span>Structure factors</span>
+            <span>Ring statistics</span>
+            <span>Persistent homology</span>
+
+          </div>
+
+        </div>
+
+
+        <figure class="research-figure">
+
+          <img
+            src="assets/silica-network.png"
+            onerror="this.onerror=null;this.src='assets/silica-placeholder.svg';"
+            alt="Amorphous silica network"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <figcaption>
+            Local tetrahedral structure and collective medium-range organization.
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+
+    <!-- Previous research -->
+
+    <section
+      class="section-block"
+      id="lanthanide-separation"
+    >
+
+      <div class="research-detail reverse">
+
+        <div>
+
+          <p class="eyebrow">
+            Previous research · 04
+          </p>
+
+          <h2>
+            Ionic-liquid interfaces for lanthanide separation
+          </h2>
+
+          <p>
+            During my master’s research at the University of Wyoming, I used
+            atomistic simulations to investigate phosphonium-based ionic
+            liquids, interfacial structure, solvation free energies, and
+            voltage-driven rare-earth ion transfer.
+          </p>
+
+          <div class="method-list">
+
+            <span>GAFF force fields</span>
+            <span>Water–ionic liquid interfaces</span>
+            <span>Lanthanide separation</span>
+            <span>H-REMD</span>
+            <span>Solvation free energy</span>
+            <span>Constant-potential MD</span>
+
+          </div>
+
+
+          <div class="research-note">
+
+            <span>
+              Master’s project
+            </span>
+
+            <strong>
+              Understanding Water–Ionic Liquid Interfaces for Rare-Earth
+              Extraction via Atomistic Simulations
+            </strong>
+
+            <small>
+              University of Wyoming · Advisor: Dr. Utkarsh Kapoor
+            </small>
+
+          </div>
+
+        </div>
+
+
+        <figure class="research-figure">
+
+          <img
+            src="assets/ionic-liquid-interface.png"
+            alt="Atomistic simulation of a water and ionic-liquid interface"
+            loading="lazy"
+            decoding="async"
+          >
+
+          <figcaption>
+            Interfacial structure and ion-transfer behavior in a biphasic system.
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- Footer -->
+
+  <footer class="site-footer">
+
+    <div class="footer-wrap">
+
+      <p>
+        © <span data-current-year></span> Sai Harshit Balantrapu
+      </p>
+
+      <p>
+        PhD Student · Materials Design and Innovation · University at Buffalo
+      </p>
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
